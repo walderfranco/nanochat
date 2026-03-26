@@ -18,6 +18,8 @@ Key design principles for high-quality synthetic data:
 NOTE: You need OPENROUTER_API_KEY set in .env or as an environment variable.
 NOTE: For more details see: https://github.com/karpathy/nanochat/discussions/139
 """
+import utils.transport
+import utils.session
 import requests
 import json
 import os
